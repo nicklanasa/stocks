@@ -16,11 +16,6 @@ cd stocks
 sudo mongod
 ```
 
-#### Start up mongod
-```
-sudo mongod
-```
-
 #### Then run
 ```
 nodemon server.js
