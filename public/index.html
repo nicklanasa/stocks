@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html ng-app="stocks">
+	<head>
+
+		<!-- META -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+		<title>Stocks</title>
+
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+		
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script><!-- load angular -->
+
+		<script src="js/controllers/main.js"></script> <!-- load up our controller -->
+		<script src="js/services/stocks.js"></script> <!-- load our todo service -->
+		<script src="js/core.js"></script> <!-- load our main application -->
+		
+	</head>
+
+	<body ng-controller="mainController">
+		<div class="fluid-container">
+
+			<!-- Add new ticker -->
+			
+			<div class="row"><p></p></div>
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<div class="control-group" id="fields">
+						<div class="controls"> 
+							<form>
+								<div class="entry input-group col-sm-12">
+									<input class="form-control" type="text" placeholder="Add ticker" ng-model="formData.ticker" />
+									<span class="input-group-btn">
+										<button class="btn btn-success btn-add" type="submit" ng-click="createStock()">
+											<span class="glyphicon glyphicon-plus"></span>
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-4"></div>
+        </div>
+			</div>
+
+			<!-- Stocks -->
+
+			<div class="row"><p></p></div>
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<table class="table table-bordered">
+						<tr>
+							<td>Ticker</td>
+							<td>Price</td>
+							<td>Open</td>
+							<td>Close</td>
+							<td>Delete</td>
+						</tr>
+						<tr ng-repeat="stock in stocks">
+							<td>{{ stock.ticker }}</td>
+							<td>{{ stock.ticker }}</td>
+							<td>{{ stock.ticker }}</td>
+							<td>{{ stock.ticker }}</td>
+							<td><button type="button" class="btn btn-danger" ng-click="deleteStock(stock._id)">Delete</button></td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+			
+		</div>
+	</body>
+</html>
