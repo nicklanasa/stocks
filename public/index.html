@@ -33,7 +33,7 @@
 						<div class="controls"> 
 							<form>
 								<div class="entry input-group col-sm-12">
-									<input class="form-control" type="text" placeholder="Add ticker" ng-model="formData.ticker" />
+									<input class="form-control" type="text" placeholder="Add ticker" ng-model="formData.symbol" />
 									<span class="input-group-btn">
 										<button class="btn btn-success btn-add" type="submit" ng-click="createStock()">
 											<span class="glyphicon glyphicon-plus"></span>
@@ -62,10 +62,10 @@
 							<td>Delete</td>
 						</tr>
 						<tr ng-repeat="stock in stocks">
-							<td>{{ stock.ticker }}</td>
-							<td>{{ stock.ticker }}</td>
-							<td>{{ stock.ticker }}</td>
-							<td>{{ stock.ticker }}</td>
+							<td>{{ stock.symbol }}</td>
+							<td>{{ stock.symbol }}</td>
+							<td>{{ stock.symbol }}</td>
+							<td>{{ stock.symbol }}</td>
 							<td><button type="button" class="btn btn-danger" ng-click="deleteStock(stock._id)">Delete</button></td>
 						</tr>
 					</table>

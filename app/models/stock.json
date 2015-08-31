@@ -1,0 +1,254 @@
+{
+	"symbol": {
+    "type": "String"
+  },
+  "Ask": {
+    "type": "String"
+  },
+  "AverageDailyVolume": {
+    "type": "String"
+  },
+  "Bid": {
+    "type": "String"
+  },
+  "AskRealtime": {
+    "type": "String"
+  },
+  "BidRealtime": {
+    "type": "String"
+  },
+  "BookValue": {
+    "type": "String"
+  },
+  "Change_PercentChange": {
+    "type": "String"
+  },
+  "Change": {
+    "type": "String"
+  },
+  "Commission": {
+    "type": "String"
+  },
+  "Currency": {
+    "type": "String"
+  },
+  "ChangeRealtime": {
+    "type": "String"
+  },
+  "AfterHoursChangeRealtime": {
+    "type": "String"
+  },
+  "DividendShare": {
+    "type": "String"
+  },
+  "LastTradeDate": {
+    "type": "String"
+  },
+  "TradeDate": {
+    "type": "String"
+  },
+  "EarningsShare": {
+    "type": "String"
+  },
+  "ErrorIndicationreturnedforsymbolchangedinvalid": {
+    "type": "String"
+  },
+  "EPSEstimateCurrentYear": {
+    "type": "String"
+  },
+  "EPSEstimateNextYear": {
+    "type": "String"
+  },
+  "EPSEstimateNextQuarter": {
+    "type": "String"
+  },
+  "DaysLow": {
+    "type": "String"
+  },
+  "DaysHigh": {
+    "type": "String"
+  },
+  "YearLow": {
+    "type": "String"
+  },
+  "YearHigh": {
+    "type": "String"
+  },
+  "HoldingsGainPercent": {
+    "type": "String"
+  },
+  "AnnualizedGain": {
+    "type": "String"
+  },
+  "HoldingsGain": {
+    "type": "String"
+  },
+  "HoldingsGainPercentRealtime": {
+    "type": "String"
+  },
+  "HoldingsGainRealtime": {
+    "type": "String"
+  },
+  "MoreInfo": {
+    "type": "String"
+  },
+  "OrderBookRealtime": {
+    "type": "String"
+  },
+  "MarketCapitalization": {
+    "type": "String"
+  },
+  "MarketCapRealtime": {
+    "type": "String"
+  },
+  "EBITDA": {
+    "type": "String"
+  },
+  "ChangeFromYearLow": {
+    "type": "String"
+  },
+  "PercentChangeFromYearLow": {
+    "type": "String"
+  },
+  "LastTradeRealtimeWithTime": {
+    "id": "http://jsonschema.net/LastTradeRealtimeWithTime",
+    "type": "String"
+  },
+  "ChangePercentRealtime": {
+    "id": "http://jsonschema.net/ChangePercentRealtime",
+    "type": "String"
+  },
+  "ChangeFromYearHigh": {
+    "type": "String"
+  },
+  "PercebtChangeFromYearHigh": {
+    "type": "String"
+  },
+  "LastTradeWithTime": {
+    "type": "String"
+  },
+  "LastTradePriceOnly": {
+    "type": "String"
+  },
+  "HighLimit": {
+    "type": "String"
+  },
+  "LowLimit": {
+    "type": "String"
+  },
+  "DaysRange": {
+    "type": "String"
+  },
+  "DaysRangeRealtime": {
+    "type": "String"
+  },
+  "FiftydayMovingAverage": {
+    "type": "String"
+  },
+  "TwoHundreddayMovingAverage": {
+    "type": "String"
+  },
+  "ChangeFromTwoHundreddayMovingAverage": {
+    "type": "String"
+  },
+  "PercentChangeFromTwoHundreddayMovingAverage": {
+    "type": "String"
+  },
+  "ChangeFromFiftydayMovingAverage": {
+    "type": "String"
+  },
+  "PercentChangeFromFiftydayMovingAverage": {
+    "type": "String"
+  },
+  "Name": {
+    "type": "String"
+  },
+  "Notes": {
+    "type": "String"
+  },
+  "Open": {
+    "type": "String"
+  },
+  "PreviousClose": {
+    "type": "String"
+  },
+  "PricePaid": {
+    "type": "String"
+  },
+  "ChangeinPercent": {
+    "type": "String"
+  },
+  "PriceSales": {
+    "type": "string"
+  },
+  "PriceBook": {
+    "type": "String"
+  },
+  "ExDividendDate": {
+    "type": "String"
+  },
+  "PERatio": {
+    "type": "String"
+  },
+  "DividendPayDate": {
+    "type": "String"
+  },
+  "PERatioRealtime": {
+    "type": "String"
+  },
+  "PEGRatio": {
+    "type": "String"
+  },
+  "PriceEPSEstimateCurrentYear": {
+    "type": "String"
+  },
+  "PriceEPSEstimateNextYear": {
+    "type": "String"
+  },
+  "Symbol": {
+    "type": "String"
+  },
+  "SharesOwned": {
+    "type": "String"
+  },
+  "ShortRatio": {
+    "type": "String"
+  },
+  "LastTradeTime": {
+    "type": "String"
+  },
+  "TickerTrend": {
+    "type": "String"
+  },
+  "OneyrTargetPrice": {
+    "type": "String"
+  },
+  "Volume": {
+    "type": "String"
+  },
+  "HoldingsValue": {
+    "type": "String"
+  },
+  "HoldingsValueRealtime": {
+    "type": "String"
+  },
+  "YearRange": {
+    "type": "String"
+  },
+  "DaysValueChange": {
+    "type": "String"
+  },
+  "DaysValueChangeRealtime": {
+    "type": "String"
+  },
+  "StockExchange": {
+    "type": "String"
+  },
+  "DividendYield": {
+    "type": "String"
+  },
+  "PercentChange": {
+    "type": "String"
+  }
+}
+  

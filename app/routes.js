@@ -26,7 +26,8 @@ module.exports = function(app) {
 
 		// create a todo, information comes from AJAX request from Angular
 		Stocks.create({
-			ticker : req.body.ticker,
+			symbol : req.body.symbol,
+			Ask: req.body.symbol,
 			done : false
 		}, function(err, todo) {
 			if (err)
